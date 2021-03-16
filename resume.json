@@ -1,0 +1,283 @@
+
+
+{
+    "_version": 3,
+    "_timestamp": 1585416496,
+    "_self": "https://andresgarcia.dev",
+    "bio": {
+        "name": "Andres Garcia",
+        "location": "Zaragoza",
+        "mail": "email@andresgarcia.dev",
+        "phone": "Not available publicly!",
+        "position": "Web Engineer",
+        "profiles": [
+            {
+                "site": "GitHub",
+                "url": "https://github.com/ndresgarc"
+            },
+            {
+                "site": "LinkedIn",
+                "url": "www.linkedin.com/in/ndresgarc"
+            },
+            {
+                "site": "Stack Overflow",
+                "url": "https://stackoverflow.com/users/9811950/ndresgarc"
+            }
+        ]
+    },
+    "experience": [
+        {
+            "job": "Lead Engineer",
+            "achievements": null,
+            "employer": "Everis",
+            "customer": ["SEAT", "VOLKSWAGEN"],
+            "duration": "Dec. 2020 - Now",
+            "tags": [
+                "FeatureHub",
+                "React",
+                "Next",
+                "AWS",
+                "Sonar Qube",
+                "Node JS",
+                "AEM"
+            ]
+        },
+        {
+            "job": "DevOps",
+            "achievements": "Design and develop two CI (Frontend and Java code) lines for deployment automatization. Improved performance of B2B portal by convert CMS HTML content consumption from SAP servers to a json-based SOA from AWS. Improve performance by reducing CSS files size from 2 MB to zero. Participate in the design of the guidelines for the brands in BSH Group (Bosch, Siemens, Balay)",
+            "employer": "Pariver / BSH",
+            "duration": "Dec. 2016 - Dec. 2020",
+            "tags": [
+                "FirstSpirit",
+                "Java",
+                "SAPUI5",
+                "AWS",
+                "Bamboo",
+                "Sonar Qube",
+                "Grunt",
+                "Node JS"
+            ]
+        },
+        {
+            "job": "Computer and Communications Technician (unizar.es)",
+            "achievements": "Computer and network rack maintenance. Member of the App Virtualization Group. Designed the frontend for a remote computer cloning application.",
+            "employer": "University of Zaragoza",
+            "duration": "Sep. 2014 - Sep. 2016",
+            "tags": [
+                "Hardware",
+                "Angular JS",
+                "PXE",
+                "API REST",
+                "Windows",
+                "Networking"
+            ]
+        },
+        {
+            "job": "Web administrator / DevOps",
+            "achievements": "CMS Maintenance (Joomla!). Design and develop the Intranet of the school from scratch. Technical consultant in the design of the transformation to the e-administration of the school. Refactored paper-based calendar system to Google Calendar, with SSO and notifications.",
+            "employer": "School of Engineering and Archictecture (eina.unizar.es) of the University of Zaragoza (unizar.es)",
+            "duration": "Jul. 2011 - Jul. 2013",
+            "tags": [
+                "PHP",
+                "MySQL",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "Security",
+                "Joomla!"
+            ]
+        },
+        {
+            "job": "Web designer",
+            "achievements": "Design and develop coporate websites and intranets. Design corporate image and style.",
+            "employer": "DROP (Co-founder)",
+            "duration": "Jun. 2010 - May. 2011",
+            "tags": [
+                "PHP",
+                "MySQL",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Network"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "SSPA",
+            "description": "Simple Single Page Application (Javascript framework)",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "name": "Appffection",
+            "description": "",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "name": "Multimeter",
+            "description": "",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "name": "42",
+            "description": "",
+            "tags": [
+                "three.js"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "what": "Law Graduate",
+            "when": "2020 - Now",
+            "where": "UNED"
+        },
+        {
+            "what": "Telecommunications engineering",
+            "when": "2003 - 2011",
+            "where": "University of Zaragoza",
+            "specialty": {
+                "title": "Speacialty in telematics & network security",
+                "publication": {
+                    "title": "",
+                    "url": "",
+                    "date": "2015"
+                }
+            },
+            "tags": [
+                "Network",
+                "Security"
+            ]
+        },
+        {
+            "what": "Virtualization and vmWare vSphere",
+            "by": "Center for Advanced Technologies in Zaragoza",
+            "when": "",
+            "description": "",
+            "tags": [
+                "vmWare",
+                "Virtualization",
+                "vSphere"
+            ]
+        },
+        {
+            "what": "Full stack CEAN programming (Couchbase, Express, Angular, Node.js)",
+            "by": "Center for Advanced Technologies in Zaragoza",
+            "when": "",
+            "description": "",
+            "tags": [
+                "Couchbase",
+                "Express",
+                "Angular",
+                "Node.js"
+            ]
+        },
+        {
+            "what": "Advanced programming for Android",
+            "by": "Center for Advanced Technologies in Zaragoza",
+            "when": "Mar. 2016 - Apr. 2016",
+            "description": "",
+            "tags": []
+        },
+        {
+            "what": "Cisco Certified Network Professional (CCNP) - Switching",
+            "by": "Center for Advanced Technologies in Zaragoza",
+            "when": "",
+            "description": "",
+            "tags": [
+                "Cisco IOS",
+                "STP",
+                "OSPF"
+            ]
+        },
+        {
+            "what": "Cisco Certified Network Professional (CCNP) - Routing",
+            "by": "Center for Advanced Technologies in Zaragoza",
+            "when": "",
+            "description": "",
+            "tags": []
+        },
+        {
+            "what": "Cisco Certified Network Associate (CCNA) - Security",
+            "by": "Center for Advanced Technologies in Zaragoza",
+            "when": "Jan. 2016 - Feb. 2016",
+            "description": "",
+            "tags": []
+        },
+        {
+            "what": "Cisco Certified Network Associate (CCNA) - Routing & Switching",
+            "by": "Center for Advanced Technologies in Zaragoza",
+            "when": "Nov. 2015 - Dec. 2015",
+            "description": "",
+            "tags": []
+        },
+        {
+            "what": "Application virtualization",
+            "by": "Numecent",
+            "when": "Jan. 2015",
+            "description": "",
+            "tags": []
+        },
+        {
+            "what": "Android programming",
+            "by": "University of Zaragoza",
+            "when": "Aug. 2011",
+            "description": "Basic programming with Android 2",
+            "tags": [
+                "Android"
+            ]
+        },
+        {
+            "what": "Server & website administration",
+            "when": "Sep. 2007 - Feb. 2008",
+            "description": "Graphic and multimedia design. Web programming and database management. Server maintenance.",
+            "tags": [
+                "PHP",
+                "MySQL",
+                "Apache"
+            ]
+        }
+    ],
+    "skills": {
+        "languages": [
+            "Spanish - Native",
+            "English - C1, by Cambridge",
+            "French",
+            "Italian"
+        ],
+        "frontend": [
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Typescript",
+            "Angular",
+            "API REST"
+        ],
+        "backend": [
+            "PHP",
+            "Node.js"
+        ],
+        "databases": [
+            "MySQL",
+            "Couch DB"
+        ],
+        "content": [
+            "Wordpress",
+            "FirstSpirit",
+            "Joomla",
+            "Adobe Experience Manager"
+        ]
+    },
+    "miscelanea": [
+        "Three times marathon runner"
+    ]
+}
+
