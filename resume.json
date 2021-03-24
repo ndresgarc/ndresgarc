@@ -32,14 +32,30 @@
             "employer": "Everis",
             "customer": ["SEAT", "VOLKSWAGEN"],
             "duration": "Dec. 2020 - Now",
+            "projects": [
+                {
+                    "name": "Stock Locator"
+                },
+                {
+                    "name": "Stock Online Sales"
+                }
+            ],
             "tags": [
                 "FeatureHub",
                 "React",
-                "Next",
+                "Jest",
+                "NextJS",
                 "AWS",
+                "Docker",
                 "Sonar Qube",
                 "Node JS",
-                "AEM"
+                "AEM",
+                "Webpack",
+                "Javascript",
+                "CSS",
+                "HTML",
+                "Typescript",
+                "Java"
             ]
         },
         {
