@@ -1,0 +1,30 @@
+{
+  "name": "ndresgarc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndresgarc/ndresgarc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndresgarc/ndresgarc/issues"
+  },
+  "homepage": "https://github.com/ndresgarc/ndresgarc#readme",
+  "devDependencies": {
+    "handlebars-loader": "^1.7.1",
+    "handlebars-webpack-plugin": "^2.2.1",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
