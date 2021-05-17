@@ -21,6 +21,7 @@ jobs:
     
       - name: Build
         run: |
+          cd ./web
           yarn build
     
       - name: Configure AWS Credentials
