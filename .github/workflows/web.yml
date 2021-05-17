@@ -20,6 +20,7 @@ jobs:
     
       - name: Build
         run: |
+          cd web/
           yarn build
     
       - name: Configure AWS Credentials
@@ -27,8 +28,8 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-2
+          aws-region: eu-central-1
 
       - name: Sync
         run: |
-          aws s3 sync ./build/ s3://${{ secrets.AWS_S3_BUCKET }}/andresgarcia.dev/
+          aws s3 sync ./web/build/ s3://${{ secrets.AWS_S3_BUCKET }}/andresgarcia.dev/
