@@ -33,4 +33,4 @@ jobs:
 
       - name: Sync
         run: |
-          aws s3 sync ./web/build/ s3://${{ secrets.AWS_S3_BUCKET }} --delete
+          aws s3 sync ./web/build/ s3://${{ secrets.AWS_S3_BUCKET }} --delete --acl public-read
