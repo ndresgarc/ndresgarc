@@ -16,11 +16,11 @@ jobs:
     
       - name: Install dependencies
         run: |
+          cd ./web
           yarn install
     
       - name: Build
         run: |
-          cd ./web
           yarn build
     
       - name: Configure AWS Credentials
