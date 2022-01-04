@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,12 +17,12 @@ jobs:
     
       - name: Install dependencies
         run: |
-          cd ./andresgarcia-dev-react
+          cd ./web-react
           npm install
     
       - name: Build
         run: |
-          cd ./andresgarcia-dev-react
+          cd ./web-react
           npm run build
     
       - name: Configure AWS Credentials
@@ -33,4 +34,4 @@ jobs:
 
       - name: Sync
         run: |
-          aws s3 sync ./andresgarcia-dev-react/build/ s3://${{ secrets.AWS_S3_BUCKET }} --delete --acl public-read
+          aws s3 sync ./web-react/build/ s3://${{ secrets.AWS_S3_BUCKET }} --delete --acl public-read
