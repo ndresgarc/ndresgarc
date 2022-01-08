@@ -17,12 +17,12 @@ jobs:
     
       - name: Install dependencies
         run: |
-          cd ./web-react
+          cd ./react
           npm install
     
       - name: Build
         run: |
-          cd ./web-react
+          cd ./react
           npm run build
     
       - name: Configure AWS Credentials
@@ -34,4 +34,4 @@ jobs:
 
       - name: Sync
         run: |
-          aws s3 sync ./web-react/build/ s3://${{ secrets.AWS_S3_BUCKET }} --delete --acl public-read
+          aws s3 sync ./react/build/ s3://${{ secrets.AWS_S3_BUCKET }} --delete --acl public-read
