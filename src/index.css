@@ -1,4 +1,5 @@
-html, body, #root {
+html,
+body {
   margin: 0;
   height: 100%;
 }
@@ -9,9 +10,17 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #165263, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #165263, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #165263,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #165263,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav {
@@ -30,7 +39,8 @@ nav a:hover {
   color: #000000;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Source Code Pro", sans-serif;
   color: white;
   font-weight: normal;
